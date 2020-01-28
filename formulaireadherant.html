@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robtos" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <title>Formulaire produit</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mrgoodfish.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Benjamin -->
+</head>
+<body>
+<div class="container bg-warning">
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary btn-lg">
+                <a class="navbar-brand" href="index.html">Mr.Goodfish</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formulaireproduit.html">Formulaire produit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formulaireadherant.html">Formulaire adhérant</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Differents listes</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="listeadherant.html">Liste d'adhérant</a>
+                                <a class="dropdown-item" href="listeproduit.html">Liste des produits</a>
+                                <a class="dropdown-item" href="listereccette.html">Liste des reccettes</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="bg-danger">
+        <main role="main">
+            <h1 class="titre_liste">Formulaire d'adhérant</h1>
+            <form>
+                <div class="form">
+                    <div class="form-row">
+                        <div class="col-12 col-md-6">
+                            <label for="pays">Pays</label>
+                            <select class="form-control" id="pays">
+                                <option selected>Tous</option>
+                                <option value="france">France</option>
+                                <option value="belgique">Belgique</option>
+                                <option value="angleterre">Angleterre</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <label for="region">Region</label>
+                            <select class="form-control" id="region">
+                                <option selected>Toutes</option>
+                                <option value="1">Auvergne-Rhône-Alpes</option>
+                                <option value="2">Bourgogne-Franche-Comté</option>
+                                <option value="3">Bretagne</option>
+                                <option value="4">Centre-Val de Loire</option>
+                                <option value="5">Corse</option>
+                                <option value="6">Grand Est</option>
+                                <option value="7">Guadeloupe</option>
+                                <option value="8">Guyane</option>
+                                <option value="9">Hauts-de-France</option>
+                                <option value="10">Île-de-France</option>
+                                <option value="11">Martinique</option>
+                                <option value="12">Mayotte</option>
+                                <option value="13">Normandie</option>
+                                <option value="14">Nouvelle-Aquitaine</option>
+                                <option value="15">Occitanie</option>
+                                <option value="16">Pays de la Loire</option>
+                                <option value="17">Provence-Alpes-Côte d'Azur</option>
+                                <option value="18">La Réunion</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12 col-md-6 ">
+                            <label for="region">Metier</label>
+                            <select class="form-control" id="metier">
+                                <option selected>Toutes</option>
+                                <option value="1">metier</option>
+                                <option value="2">metier</option>
+                                <option value="3">metier</option>
+                                <option value="4">metier</option>
+                                <option value="5">metier</option>
+                                <option value="6">metier</option>
+                                <option value="7">metier</option>
+                                <option value="8">metier</option>
+                                <option value="9">metier</option>
+                                <option value="10">metier</option>
+                                <option value="11">metier</option>
+                                <option value="12">metier</option>
+                                <option value="13">metier</option>
+                                <option value="14">metier</option>
+                                <option value="15">metier</option>
+                                <option value="16">metier</option>
+                                <option value="17">metier</option>
+                                <option value="18">metier</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <label for="check_adherant"></label>
+                            <input type="checkbox" id="check_adherant">
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-inline">
+                                    <label for="search"></label>
+                                    <button class="btn btn-primary my-2 my-sm-0" id="search" type="submit">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+    <div>
+        <footer class="bg-success">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, ducimus eius eum inventore maxime modi mollitia neque sequi ullam! Accusamus cum facere fugit iste magni obcaecati provident quasi tempora vitae.</p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
